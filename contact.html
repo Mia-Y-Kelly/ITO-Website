@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>IT Oxygen :: Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" type="text/css" href="oxygen.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="logo.PNG" alt="IT Oxygen Logo" height="150" width="650">
+            </header>
+            <nav>
+                <a href="index.html">Home</a> &nbsp;
+                <a href="services.html">Services</a> &nbsp;
+                <a href="portfolio.html">Portfolio</a> &nbsp;
+                <a href="student.html">How To Join</a> &nbsp;
+                <a href="client.html">Become a Client</a> &nbsp;
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            <main>   
+                <h1>Contact Us</h1> 
+                <h2>Please fill out the following form to contact IT Oxygen with any problems or inquiry you may have.</h2> 
+                <div id="form">
+                    <form name="contactForm" method="post" action="mailto:mykelly@mtu.edu">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label>Name:</label>
+                            <input type="text" name="name" required><br>
+                            <label>Organization:</label>
+                            <input type="text" name="org"><br>
+                            <label>Contact Email:</label>
+                            <input type="email" name= "email" required><br>
+                            <label>Contact Phone:</label>
+                            <input type="tel" name="phone"><br><br>
+                            <label>Contact Preference:</label><br>
+                            <input type="radio" name="preference" value="phone">
+                            <label class="tab">Phone:</label><br>
+                            <input type="radio" name="preference" value="email">
+                            <label class="tab">E-mail:</label><br>
+                        </fieldset><br><br> 
+                        <fieldset>
+                            <legend>Reason for Contact</legend> 
+                            <label id="reg">Please explain the extent of your contact to IT Oxygen.</label><br>
+                            <textarea name="reason" rows="10" cols="90"></textarea>
+                        </fieldset><br>
+                            <input class="subbutton" type="submit" name="submit" value="Submit">
+                            <input class="subbutton" type="reset" name="reset" value="Reset"/><br>
+                    </form> 
+                </div>
+            </main>
+           <footer>Copyright &copy; 2022 IT Oxygen<br />
+                <a href="mailto:mykelly@mtu.edu">mykelly@mtu.edu</a><br />
+                <!-- Remove these links until the accounts are recovered
+                <a href="https://www.facebook.com/ITOxygen-Enterprise-230060950385131/" target="blank"><img alt="IT Oxygen Facebook" height="30" src="fb.png" width="30" /></a> 
+                
+                <a href="https://twitter.com/itoxygen_mtu" target="blank"><img alt="IT Oxygen Discord" height="30" src="tw.png" width="30" /></a>
+                -->
+                <a href="https://discord.gg/Tae8QmxcTt" target="blank"><img alt="IT Oxygen Discord" height="30" src="discord.png" width="30" /></a>
+            </footer>
+        </div>
+    </body>
+</html>
